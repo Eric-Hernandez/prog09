@@ -1,0 +1,40 @@
+0. Create package prog09.
+
+1. Finish implementing InsertionSort and test.
+
+2. Ditto HeapSort.  (Uncomment line in main.)
+
+3. Ditto QuickSort.
+
+4. Ditto MergeSort.
+
+5. For homework, measure the running time of each sorting algorithm on
+   larger arrays of Integer.  If the user provides a size on the
+   command line, then make the array that size and initialize it with
+   random integers.  (random.nextInt() gives a random integer).
+
+   Don't print out the array if it is bigger than a 100 in size.
+
+   Print out the running time of each method for different sizes.  Use
+   the techniques you learned in prog03 to calculate an accurate
+   running time.
+
+   You should not make a clone (copy) of the array each time you call
+   the sorting method to time it.  Instead, make only one clone and
+   then use System.arraycopy to copy the original array into the copy
+   array each time.  You have to copy the original array into the
+   copy, otherwise you will be sorting an already-sorted array for the
+   second call to sort and each subsequent call.
+   
+   Put the values you got on your computer as comments in your program
+   for n=1000, 10000, up to 10000000.  You to put in an if-condition
+   to prevent the call to test InsertionSort for most of the large
+   values of n.
+
+
+
+
+
+
+
+
